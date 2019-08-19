@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.nowdo.springfalsework.entity.mapper.Jd_goodsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.nowdo.springfalsework.entity.entity.Jd_goods">
+        <id column="skuId" property="skuId" />
+        <result column="spuId" property="spuId" />
+        <result column="skuUrl" property="skuUrl" />
+        <result column="imgUrl" property="imgUrl" />
+        <result column="title" property="title" />
+        <result column="price" property="price" />
+        <result column="commissionPrice" property="commissionPrice" />
+        <result column="goodCom" property="goodCom" />
+        <result column="saleCount" property="saleCount" />
+        <result column="comRate" property="comRate" />
+        <result column="couponId" property="couponId" />
+        <result column="venderId" property="venderId" />
+        <result column="couponNum" property="couponNum" />
+        <result column="usedNum" property="usedNum" />
+        <result column="denomination" property="denomination" />
+        <result column="quota" property="quota" />
+        <result column="validityType" property="validityType" />
+        <result column="days" property="days" />
+        <result column="link" property="link" />
+        <result column="validBeginTime" property="validBeginTime" />
+        <result column="validEndTime" property="validEndTime" />
+        <result column="couponValid" property="couponValid" />
+        <result column="isPinGou" property="isPinGou" />
+        <result column="pingouTmCount" property="pingouTmCount" />
+        <result column="pgPrice" property="pgPrice" />
+        <result column="owner" property="owner" />
+        <result column="diyImgUrl" property="diyImgUrl" />
+        <result column="diyTitle" property="diyTitle" />
+        <result column="diyBenefit" property="diyBenefit" />
+        <result column="imageUrls" property="imageUrls" />
+        <result column="isSeckill" property="isSeckill" />
+        <result column="seckillOriPrice" property="seckillOriPrice" />
+        <result column="seckillPrice" property="seckillPrice" />
+        <result column="seckillStartTime" property="seckillStartTime" />
+        <result column="seckillEndTime" property="seckillEndTime" />
+        <result column="shareUrl" property="shareUrl" />
+    </resultMap>
+
+</mapper>

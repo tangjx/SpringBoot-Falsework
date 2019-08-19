@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.nowdo.springfalsework.entity.mapper.Sys_userMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.nowdo.springfalsework.entity.entity.Sys_user">
+        <id column="id" property="id" />
+        <result column="login_id" property="login_id" />
+        <result column="password" property="password" />
+        <result column="nick_name" property="nick_name" />
+        <result column="create_time" property="create_time" />
+        <result column="update_time" property="update_time" />
+        <result column="status" property="status" />
+        <result column="delflag" property="delflag" />
+    </resultMap>
+
+</mapper>
